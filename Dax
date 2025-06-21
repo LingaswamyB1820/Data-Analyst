@@ -1,10 +1,10 @@
 # This file provides the dax related information
-
-# QTD Running Total = 
-CALCULATE(
-    SUM(Sales[SalesAmount]), 
-    DATESQTD('Date'[Date])
-)
+                            
+                                QTD Running Total = 
+                            CALCULATE(
+                            SUM(Sales[SalesAmount]), 
+                            DATESQTD('Date'[Date])
+                            )
 
 
 
